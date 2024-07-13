@@ -1,0 +1,122 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Manrope", sans-serif; */
+/* font-family: "Montserrat", sans-serif; */
+
+/* class sector */
+.h1_60{
+    font-family: "Montserrat", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: -2%;
+}
+.h_c{
+    background: linear-gradient(rgb(251, 162, 79),
+    rgb(255, 30, 30));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+}
+.p_description{
+    color: rgb(130, 130, 130);
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 500;
+}
+.h2_40{
+    color: rgb(112, 112, 112);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+}
+.mt{
+    margin-top: 50px;
+}
+.btn_prymary{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 24px 32px 24px 32px;
+    border-radius: 100px;
+    box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.5);
+    /* gradient */
+    background: linear-gradient(69.40deg, rgb(251, 162, 79) -6.919%,rgb(255, 30, 30) 144.985%);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    width: 100vw;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_box{
+    width: 90%;
+    margin: auto;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_box>div{
+    width: 50%;
+    height: 100%;
+}
+.header_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
+.hero_img{
+    background-image: url("../images/shapes/Group\ 8450.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: left;
+    position: relative;
+
+}
+.hero_man{
+    position: absolute;
+    right:70px;
+    bottom: 0;
+}
+/* about section */
+.about{
+    width: 90vw;
+    margin: auto;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    background-image: url('../images/shapes/7.png');
+    background-size: cover;
+}
+.about_1{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+.about_1>img{
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+}
+.about_2{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
