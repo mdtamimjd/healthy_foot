@@ -143,11 +143,9 @@ header{
     right:70px;
     bottom: 0;
 }
-main{
-    position: relative;
-}
+
 main>span{
-    position: fixed;
+    position:fixed;
     right: 90px;
     bottom: 50px;
     z-index: 5;
